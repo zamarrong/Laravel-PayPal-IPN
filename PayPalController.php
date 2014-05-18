@@ -66,9 +66,7 @@ class PayPalController extends BaseController {
 			$receiver_email = $_POST['receiver_email'];
 			$payer_email = $_POST['payer_email'];
 			$custom = $_POST['custom'];
-			// Insert your actions here
-			$id_cotizacion = $item_number;
-			$cantidad =  $payment_amount;
+			// Insert your actions after here
 			if ($payment_status == 'Completed'){
 			  // Process payment and update the attributes of the order in your database
 				// Procesar el pago e.j. actualizar los atributos del pedido en tu base de datos
